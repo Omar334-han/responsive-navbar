@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <link rel="shortcut icon" href="image/photo_2024-07-06_19-45-28.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="sidebar">
+            
+            <li onclick="offSidebar()" class="item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li class="item"><a href="#">home</a></li>
+            <li class="item"><a href="#">service</a></li>
+            <li class="item"><a href="#">about</a></li>
+            <li class="item"><a href="#">signup</a></li>
+        </ul>
+        <ul class="main-container">
+            <li class="item logo"><a href="#"><img src="image/O.png" alt=""></a></li>
+            <li class="item hideonmobile"><a href="#">home</a></li>
+            <li class="item hideonmobile"><a href="#">service</a></li>
+            <li class="item hideonmobile"><a href="#">about</a></li>
+            <li class="item hideonmobile"><a href="#">signup</a></li>
+            <li  onclick="showSidebar()" class="item threebar"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+</body>
+</html>
